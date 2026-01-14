@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+	width: 95%;
+	border-collapse: collapse;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0,0,0,3);
+	margin: 20px auto;
+
+}
+
+th,td{
+	padding: 12px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+th{
+	background-color: #2c3237;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #f3f3f3;
+}
+
+tr:hover{
+	background-color: #007bff;
+	color: white;
+}
+
+td:nth-child(4),
+td:nth-child(5){
+	text-align: center;
+}
+
+td:nth-child(6){
+	text-transform: capitalize;
+}
+
+th:last-child, td:last-child{
+	border-radius: none;
+}
+
+.btn a {
+		display: inline-block;
+		background-color: #081c31;
+		color: white;
+		padding: 10px 20px;
+		border-radius: 15px;
+		margin-top: 10px;
+		}
+
+.a:hover {
+		background-color: #0056b3;
+		}
+    </style>
+</head>
+<body>
+    <center>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Bahasa Inggris</th>
+            <th>Bahasa Indonesia</th>
+            <th>Bahasa Sunda</th>
+            <th>Matematika</th>
+            <th>Sejarah</th>
+            <th>KKA</th>
+            <th>DPK</th>
+        </tr>
+        <tr>
+            <th>1. Ya Xian</th>
+            <th>95</th>
+            <th>90</th>
+            <th>90</th>
+            <th>89</th>
+            <th>93</th>
+            <th>81</th>
+            <th>79</th>
+        </tr>
+        <tr>
+            <th>2. Beni</th>
+            <th>90</th>
+            <th>80</th>
+            <th>82</th>
+            <th>83</th>
+            <th>93</th>
+            <th>83</th>
+            <th>77</th>
+        </tr>
+        <tr>
+            <th>3. Danni</th>
+            <th>77</th>
+            <th>80</th>
+            <th>84</th>
+            <th>85</th>
+            <th>90</th>
+            <th>83</th>
+            <th>85</th>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>
